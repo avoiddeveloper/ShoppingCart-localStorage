@@ -2,9 +2,9 @@
 This project demonstrates the effective use of local storage in web development. It includes features to save, retrieve, and manage data persistently in the browser without relying on a backend server.
 
 <h2>Features</h2>
-Add and Save Data: Store user inputs or settings in local storage.
-Retrieve Data: Load stored data dynamically into the application.
-Delete Data: Clear specific or all stored data when needed.
+Add and Save Data: Store user inputs or settings in local storage.<br>
+Retrieve Data: Load stored data dynamically into the application.<br>
+Delete Data: Clear specific or all stored data when needed.<br>
 User-Friendly Interface: Interactive and responsive design for better usability.
 
 <h2>Purpose</h2>
