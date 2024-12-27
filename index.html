@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Card</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <main class="container mx-auto flex flex-col justify-center">
+        <div class="mx-auto py-5 border bg-slate-200 rounded-md my-5 text-center space-y-5">
+            <input id="product" type="text" placeholder="Enter Product Name"
+                class="input input-bordered w-full max-w-xs" />
+            <input id="quantity" type="text" placeholder="Enter Quantity"
+                class="input input-bordered w-full max-w-xs" />
+            <br>
+            <button onclick="addProduct()" class="btn btn-error text-white">Add To Cart</button>
+        </div>
+
+        <div class="mx-auto text-center space-y-5">
+            <ul id="listContainer" class="font-medium text-2xl text-slate-700 list-disc">
+                <!-- Dynamic -->
+            </ul>
+        </div>
+    </main>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./custom.js"></script>
+</body>
+
+</html>
