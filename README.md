@@ -11,6 +11,6 @@ User-Friendly Interface: Interactive and responsive design for better usability.
 This project is designed as a hands-on example of local storage integration, ideal for beginners and developers exploring client-side data persistence techniques.
 
 <h2>Technologies Used</h2>
-HTML5
-Tailwind & DaisyUI
+HTML5<br>
+Tailwind & DaisyUI<br>
 JavaScript (ES6)
